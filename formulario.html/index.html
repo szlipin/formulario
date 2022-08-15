@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    
+<form action="recebe.html" method="get">
+    Nome: <input type="text" id="nome" placeholder="Seu nome completo">
+    <br>
+    Usuário: <input type="text" id="login" placeholder="Seu nome de usuário">
+    <br>
+    E-mail: <input type="email" id="emai" placeholder="Seu E-mail">
+    <br>
+    Senha: <input type="password" id="senha" placeholder="Uma senha">
+    <br>
+    Nascimento: <input type="date" id="nascimento" placeholder="Sua data de nascimento">
+    <br>
+    Estado: <select id="estado">
+        <option name="sp">SP</option>
+        <option name="rj">RJ</option>
+    </select>
+    <br>
+    Cidade: <select id="cidade">
+        <option name="bebedouro">Bebedouro</option>
+        <option name="ribeiraopreto">Ribeirão Preto</option>
+        <option name="barretos">Barretos</option>
+        <option name="saopaulo">São Paulo</option>
+        <option name="viradouro">Viradouro</option>
+        <option name="terraroxa">Terra Roxa</option>
+
+        <option name="niteroi">Niterói</option>
+        <option name="duquedecaxias">Duque de Caxias</option>
+        <option name="belfordroxo">Belford Roxo</option>
+        <option name="petropolis">Petrópolis</option>
+        <option name="marica">Maricá</option>
+        <option name="mesquita">Mesquita</option> </select>
+    <br>
+    Foto: <input type="file" id="foto">
+    <br>
+    <input type="submit" id="enviar" value="Enviar">
+</form>
+
+</body>
+</html>
